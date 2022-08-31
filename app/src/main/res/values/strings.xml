@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Capp</string>
+    <string name="app_logo">Capp Logo</string>
+
+    <string name="compose_image">Jetpack Compose Logo</string>
+    <string name="jetpackMessage">
+        Jetpack Compose 1.0 was launched on July 28th, 2021 but I knew about it just last month!
+    </string>
+    <string name="regionsTitle">Regions</string>
+
+    <string name="countriesTitle">Countries</string>
+    <string name="backToRegion">Back to region screen</string>
+
+    <string name="basicInfo">Basic Information</string>
+    <string name="countryName">Name:</string>
+    <string name="cc">Code (cca3):</string>
+    <string name="subRegion">Subregion:</string>
+    <string name="independent">Independent:</string>
+
+    <string name="arrowBackToRegionScreen">Back to region Screen</string>
+    <string name="arrowBackToCountryScreen">Back to country screen</string>
+    <string name="searchFAB">Search for a particular country</string>
+    <string name="search">Search country name</string>
+    <string name="title_activity_search">SearchActivity</string>
+
+</resources>
