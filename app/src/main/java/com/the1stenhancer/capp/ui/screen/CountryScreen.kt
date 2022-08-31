@@ -48,7 +48,7 @@ fun CountryScreen(
         },
         floatingActionButton = {
             FloatingActionButton(
-                onClick = { TODO() },
+                onClick = {  },
                 backgroundColor = if (isSystemInDarkTheme()) {
                     MaterialTheme.colors.secondary
                 } else {
