@@ -74,11 +74,8 @@ class PlanetViewModel @Inject constructor(
     }
 
 
-    fun searchCountry(name: String): List<Country> {
-        val countries = _countryScreenUiState.value.countries.filter {
-            it.name.common.contains(name)
-        }
-        return countries
+    fun currentCountries(): List<Country> {
+        return _countryScreenUiState.value.countries
     }
 
 }

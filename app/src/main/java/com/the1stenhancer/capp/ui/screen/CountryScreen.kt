@@ -24,6 +24,7 @@ fun CountryScreen(
     region: String,
     viewModel: PlanetViewModel,
     scaffoldState: ScaffoldState = rememberScaffoldState(),
+    onNavToSearchScreen: () -> Unit,
     onNavToDetailScreen: (String) -> Unit,
     onNavBackToRegionScreen: () -> Unit
 ) {
@@ -48,7 +49,7 @@ fun CountryScreen(
         },
         floatingActionButton = {
             FloatingActionButton(
-                onClick = {  },
+                onClick = onNavToSearchScreen,
                 backgroundColor = if (isSystemInDarkTheme()) {
                     MaterialTheme.colors.secondary
                 } else {
